@@ -1,0 +1,16 @@
+{
+  "name": "app-students",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/majulia/app-students-bootstrap.git",
+  "author": "Maria Julia de Oliveira <mariajuliaoliveira03@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.28",
+    "mongoose-paginate": "^5.0.3",
+    "nodemon": "^2.0.4",
+    "require-dir": "^1.2.0"
+  }
+}
