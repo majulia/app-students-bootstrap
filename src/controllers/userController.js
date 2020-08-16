@@ -12,7 +12,7 @@ module.exports = {
   async selectIdAll (req, res){
     const { page } = req.query
 
-    const users = await User.paginate({}, { page, limit: 10 })
+    const users = await User.paginate({}, { page, limit: 5 })
 
     return res.json(users)
   },

@@ -1,0 +1,16 @@
+div.btnSection{
+  padding: 20px;
+}
+
+.linkStyle{
+  font-size: 16px;
+  padding: 10px;
+  background-color: #34495e;
+  color: aliceblue !important;
+  border-radius: 3px;
+  text-decoration: none !important;
+}
+
+.linkStyle:hover{
+  background: #2c3e50;
+}
