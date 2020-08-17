@@ -1,0 +1,9 @@
+.inputStyle{
+  padding: 20px;
+  width: auto;
+}
+
+.linkSection{
+  display: flex;
+  justify-content: space-between;
+}
