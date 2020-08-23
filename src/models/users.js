@@ -14,7 +14,7 @@ const userSchema = new mongoose.Schema({
     type: Number,
     required: true,
     min: 1,
-    max: 9999,
+    max: 99999,
     unique: true
   },
   ativo: {

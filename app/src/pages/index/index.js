@@ -42,6 +42,10 @@ export default class Users extends Component {
 
     return (
       <div className="usuario-list">
+        <div className='linkCriar'>
+          <Link to={`/CriarUsuario`} className='linkCriarUser'>Criar usuario</Link>
+        </div>
+
         <ListGroup flush>
           {this.state.users.map(user => (
             <ListGroupItem key={user._id}>

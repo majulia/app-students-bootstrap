@@ -1,0 +1,20 @@
+.sectionBtn{
+  display: flex;
+  padding: 5px;
+}
+
+.linkVoltar{
+  background-color: rgba(218, 0, 0, 0.952);
+  text-decoration: none !important;
+  color: #dddddd;
+  padding: 8px;
+  margin-left: 15px;
+  border-radius: 3px;
+  width: 100px;
+  text-align: center;
+}
+
+.linkVoltar:hover{
+  color: #dddddd;
+  background-color: rgba(218, 0, 0, 0.801);
+}

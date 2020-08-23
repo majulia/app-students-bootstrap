@@ -25,6 +25,12 @@ export default class User extends Component {
 
   render() {
     const { user } = this.state
+
+  if (user.ativo) {
+    user.ativo = "Usuário ativo"
+  }else{
+    user.ativo = "Usuário inativo"
+  }
     return (
       <>
         <section>
@@ -44,7 +50,7 @@ export default class User extends Component {
 
           <div className="inputStyle">
             <InputGroup>
-              <InputGroupAddon addonType="prepend" >Ativo</InputGroupAddon>
+              <InputGroupAddon addonType="prepend" >Status</InputGroupAddon>
               <Input value={user.ativo} disabled />
             </InputGroup>
           </div>
@@ -67,9 +73,9 @@ export default class User extends Component {
         </section>
 
         <section className="linkSection">
-          <Link to={`/`}>Voltar</Link>
-          <Link to={`/edit/${user._id}`}>Editar</Link>
-          <Link to={`/deleteUsers/${user._id}`}>Deletar</Link>
+          <Link className="styleLink Yellow" to={`/`}>Voltar</Link>
+          <Link className="styleLink Green" to={`/EditarUsuario/${user._id}`}>Editar</Link>
+          <Link className="styleLink" to={`/deleteUsers/${user._id}`}>Deletar</Link>
         </section>
 
       </>

@@ -3,14 +3,38 @@ div.btnSection{
 }
 
 .linkStyle{
-  font-size: 16px;
-  padding: 10px;
-  background-color: #34495e;
-  color: aliceblue !important;
-  border-radius: 3px;
+  display: flex;
+  background-color: #042d57;
   text-decoration: none !important;
+  color: #dddddd;
+  padding: 8px;
+  border-radius: 3px;
+  width: 150px;
+  justify-content: center;
 }
 
 .linkStyle:hover{
   background: #061320;
+  color: #dddddd;
+}
+
+.linkCriar{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.linkCriarUser{
+  background-color: rgba(218, 0, 0, 0.952);
+  text-decoration: none !important;
+  color: #dddddd;
+  padding: 8px;
+  border-radius: 3px;
+  width: 200px;
+  text-align: center;
+}
+
+.linkCriarUser:hover{
+  color: #dddddd;
+  background-color: rgba(218, 0, 0, 0.801);
 }

@@ -7,3 +7,28 @@
   display: flex;
   justify-content: space-between;
 }
+
+.styleLink{
+  background-color: #042d57;
+  text-decoration: none !important;
+  color: #dddddd;
+  padding: 8px;
+  border-radius: 3px;
+  width: 150px;
+  text-align: center;
+}
+
+.styleLink:hover{
+  color: #dddddd;
+  background-color: rgba(218, 0, 0, 0.801);
+}
+
+.Yellow:hover{
+  color: #dddddd;
+  background-color: rgba(245, 77, 10, 0.801);
+}
+
+.Green:hover{
+  color: #dddddd;
+  background-color: rgba(14, 136, 24, 0.801);
+}
