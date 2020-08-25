@@ -96,13 +96,13 @@ class updateUser extends Component {
               <Col md={6}>
                 <FormGroup>
                   <Label>Cidade</Label>
-                  <Input type="text" name="cidade" id="cidade" placeholder="Ex: São Paulo" minLength="3" maxLength="100" value={this.state.user.cidade} onChange={this.handleInputChangeEndereco} />
+                  <Input type="text" name="cidade" id="cidade" placeholder="Ex: São Paulo" minLength="3" maxLength="100" value={this.state.user.endereco.cidade} onChange={this.handleInputChangeEndereco} />
                 </FormGroup>
               </Col>
               <Col md={6}>
                 <FormGroup>
                   <Label>Estado</Label>
-                  <Input type="text" name="estado" id="estado" placeholder="Ex: SP" minLength="2" maxLength="2" value={this.state.user.estado} onChange={this.handleInputChangeEndereco} />
+                  <Input type="text" name="estado" id="estado" placeholder="Ex: SP" minLength="2" maxLength="2" value={this.state.user.endereco.estado} onChange={this.handleInputChangeEndereco} />
                 </FormGroup>
               </Col>
             </Row>

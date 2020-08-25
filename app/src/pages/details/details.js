@@ -75,7 +75,7 @@ export default class User extends Component {
         <section className="linkSection">
           <Link className="styleLink Yellow" to={`/`}>Voltar</Link>
           <Link className="styleLink Green" to={`/EditarUsuario/${user._id}`}>Editar</Link>
-          <Link className="styleLink" to={`/deleteUsers/${user._id}`}>Deletar</Link>
+          <Link className="styleLink" to={`/DeletarUsuario/${user._id}`}>Deletar</Link>
         </section>
 
       </>

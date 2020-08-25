@@ -1,0 +1,29 @@
+.btn-Section{
+  display: flex;
+  justify-content: center;
+}
+
+.btnP{
+  padding: 5px;
+}
+
+.btnL{
+  margin-top: 11.5px;
+}
+
+
+.sLink{
+  background-color: #042d57;
+  text-decoration: none !important;
+  color: #dddddd;
+  padding: 8.5px;
+  border-radius: 3px;
+  width: 150px;
+  text-align: center;
+}
+
+
+.sLink:hover{
+  color: #dddddd;
+  background-color: rgba(8, 13, 88, 0.801);
+}
